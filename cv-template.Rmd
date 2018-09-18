@@ -1,0 +1,62 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: cv-latex.tex
+geometry: margin=.7in
+
+title: "CV"
+author: Jason D. Hanna
+
+fontawesome: no
+email: jdhanna@gmail.com
+github: Jacedeuce
+twitter: none 
+phone: "+1 734 476 3733"
+updated: no
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+urlcolor: blue
+---
+
+# Relevant skills
+
+- Programming Languages: R, Python, SQL
+- Software/Databases: Tableau, Linux Command-line, ArcGIS, PostgreSQL, SQLite
+
+# Experience 
+
+**Data Scientist** \hfill Mar 2018 - current  
+*NGA/Office of Strategic Operations, Springfield, VA*
+
+- Using Python and R, compiled and cleaned a dataset of 1 billion features for three-year timespan of NGA production metrics. Visualized data and reported findings from analysis using Tableau and Plotly to Director/NGA and Office of the Director of National Intelligence.
+- Trained more than 50 other analysts across the IC on configuration of data science environment on JWICS systems in-person and through a variety of online collaborative tools (IC-Connect, R-Space, I-Space, chat rooms and messager apps). 
+- Requested by name to compile data analysis infrastructure requirements for Associate Director/Capabilities, a new-hire software baseline, and the Open-Source Software Security Working Group.
+- Recognized as a go-to resource for data science tool configuration throughout the Intelligence Community. 
+- Documented, managed, and provided recommendations for analytic software provisioning for division of 30 analysts.
+
+**Imagery Analyst** \hfill Jan 2010 - Mar 2018  
+*NGA/Analysis, Springfield, VA*
+
+**Scout-Sniper** \hfill Dec 2006 - Dec 2009  
+*United States Marine Corps, Kaneohe Bay, Hawaii*
+
+# Education
+
+**M.Sc.** \hfill Expected 2019  
+*Program of Study in Data Science, University of Missouri*
+
+- Classes completed:
+    - Introduction to Data Science, Python Programming Boot Camp, Database Basics & SQL Boot Camp, Introductory Statistics for Data Analytics, R Statistical Programming Boot Camp
+
+**B.A Sociology, *cum laude*** \hfill 2002 - 2004  
+*Western Michigan University*
+
+# Home Computing
+
+- Run PostgreSQL Server, RStudio Server, and Shiny Server in local Linux VM running on Hyper-V at home. Used Python-Scrapy to webscrape election data from archives.gov, clean data, load into SQL Server and serve data visualization from the SQL server onto the Shiny Server.
+- Installed and maintained Pi-Hole DNS adblocker and MediaWiki on headless Raspberry Pi
